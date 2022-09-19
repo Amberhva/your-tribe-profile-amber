@@ -4,45 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FDND Visitekaartje</title>
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
-<article>
-  <header>
-    <h1>Jane Doe</h1>
-    <p><em>Creative Frontend Developer in spé</em></p>
-    <button>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
-        <path d="M4 16v2a2 2 0 0 0 2 2h2" />
-        <path d="M16 4h2a2 2 0 0 1 2 2v2" />
-        <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-      </svg>
+<div class="card-container">
+	<img class="profilepicture" src="../your-tribe-profile-card-Copy/assets/AmberFoto.jpeg"  width="170" height="170" alt="user" />
+	<h3>Amber v/d Reijden</h3>
+	<h6>Frontend developer in opleiding</h6>
+	<p id="description">Welkom en leuk dat je een kijkje neemt op mijn profielkaart. Hier zal je meer over mij te weten komen!</p>
+	
+  <div class="button">
+    <a href="https://twitter.com/minimalmonkey" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+    <a href="https://facebook.com" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+    <a href="https://plus.google.com" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+  </div>
 
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M15 19v-2a2 2 0 0 1 2 -2h2" />
-        <path d="M15 5v2a2 2 0 0 0 2 2h2" />
-        <path d="M5 15h2a2 2 0 0 1 2 2v2" />
-        <path d="M5 9h2a2 2 0 0 0 2 -2v-2" />
-      </svg>
-    </button>
+  <!--
+    <div class="buttons">
+		<button class="primary">
+			E-mail
+		</button>
+		<button class="primary ghost">
+			Linked-in
+		</button>
+	</div>
+  -->
 
-  </header>
-  
-  <img src="assets/creative-coder.png" alt="Creative Coder">
+	<div class="hobbies">
+    <h3>Hobbies</h3>
+    
+    <dl>
+      <dt>Gamen</dt><dd><img class="hobbiespicture" src="../your-tribe-profile-card-Copy/assets/Gaming.jpg" alt="user" /></dd>
+      <dt>Reizen</dt><dd><img class="hobbiespicture" src="../your-tribe-profile-card-Copy/assets/China.jpeg" alt="user" /></dd>
+      <dt>Sporten</dt><dd><img class="hobbiespicture" src="../your-tribe-profile-card-Copy/assets/Gym.jpeg" alt="user" /></dd>
+    </dl>
 
-  <dl>
-    <dt>HTML</dt><dd>🏆🏆🏆</dd>
-    <dt>CSS</dt><dd>🏆🏆</dd>
-    <dt>JavaScript</dt><dd>🏆🏆🏆🏆</dd>
-  </dl>
-  
-  <p>Het WEB is te gek! <br> Met HTML, CSS en JavaScript kan ik vette, interactieve web apps maken.</p>
-</article>
+    <dl>
+      <dt>Lezen</dt><dd><img class="hobbiespicture" src="../your-tribe-profile-card-Copy/assets/Reading.jpg" alt="user" /></dd>
+      <dt>Fotografie</dt><dd><img class="hobbiespicture" src="../your-tribe-profile-card-Copy/assets/TheGreatestWallOfChina.jpg" alt="user" /></dd>
+      <dt>Boulderen</dt><dd><img class="hobbiespicture" src="../your-tribe-profile-card-Copy/assets/Boulderen.jpeg" alt="user" /></dd>
+    </dl>
+		
+	</div>
 
-  <script src="./scripts/script.js"></script>
+  <div class="timeline">
+    <h3>Mijn tijdlijn</h3>
+    <p class="timelinecontent">
+      2016 - Nadat ik mijn diploma had behaald op de middelbare school, ben ik gaan studeren op het Grafisch Lyceum Rotterdam waar ik drie jaar de opleiding 'Mediatechnologie' heb gedaan.
+      Hier heb ik geleerd over HTML & CSS maar ook over JavaScript en gamedevelopment.
+    </p>
+    <p class="timelinecontent">2019 - Ik vond dat de IT niet meer bij me pastte, nadat ik mijn diploma had behaald op het Grafisch Lyceum, heb ik besloten om twee tussenjaren te nemen.
+      Waarom vraag je je af? Omdat ik wilde zoeken naar een geschikte opleiding die bij me past.
+    </p>
+    <p class="timelinecontent">2020 - Ik ben in de twee tussenjaren vooral gaan werken en heb lessen genomen voor mijn rijbewijs. Het eerste jaar vond ik het heel erg moeilijk om een geschikte opleiding te kiezen.
+      Na veel nadenken, heb ik besloten om voor de opleiding Engels leraar te gaan op Hogeschool Utrecht, want Engels heb ik altijd goed gekund en ik wil heel graag reizen en les geven in het buitenland.
+    </p>
+    <p class="timelinecontent">2021 - Tijdens de opleiding Engels leraar vond ik de lessen leuk, maar het moment dat we met stage begonnen, vond ik het beroep toch niet bij me passen.
+      Het kon ook aan de stageschool liggen, maar er kwamen al heel snel twijfels. Ik had besloten om het eerste jaar af te ronden, maar dat ging met veel tegenzin.
+    </p>
+    <p class="timelinecontent">2022 - Uiteindelijk heb ik de switch gemaakt om toch terug naar IT te gaan, maar dan het Frontend gedeelte. Tijdens mijn opleiding was ik hier redelijk goed in en dacht, waarom ook niet.</p>
+  </div>
+</div>
+
 </body>
 </html>
