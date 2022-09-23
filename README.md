@@ -1,6 +1,6 @@
 <h1>Mijn Visitekaartje</h1>
 
-[insert image]
+![image](https://user-images.githubusercontent.com/112861033/191980307-7163572e-bf9d-4078-bcdf-5c8b1d24a1eb.png)
 
 Dit project bestaat uit een persoonlijk vistekaartje wat gemaakt is met HTML & CSS.
 
